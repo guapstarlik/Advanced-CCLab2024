@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Averago';
+    src: url(Averago.otf) format('otf');
+
+    font-family: 'go3v2';
+    src: url(go3v2.ttf) format ('ttf'); 
+}
+
+body {
+    
+    background-image: url('image assets/paper1.jpg');
+    background-repeat:repeat-y;
+    background-position: center;
+    background-attachment: fixed; 
+ }
+h1 {
+     color: black;
+     font-family: 'Averago',sans-serif;
+   
+
+}
+
+p {
+color: black;
+font-family: 'go3v2',san-serif;
+}
