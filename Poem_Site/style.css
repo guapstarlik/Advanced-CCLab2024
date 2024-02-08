@@ -1,26 +1,63 @@
 @font-face {
     font-family: 'Averago';
-    src: url(Averago.otf) format('otf');
+    src: url('Averago.otf') format('opentype');
+}
 
+@font-face {
     font-family: 'go3v2';
-    src: url(go3v2.ttf) format ('ttf'); 
+    src: url('go3v2.ttf') format('truetype');
 }
 
 body {
-    
     background-image: url('image assets/paper1.jpg');
-    background-repeat:repeat-y;
+    background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed; 
- }
-h1 {
-     color: black;
-     font-family: 'Averago',sans-serif;
-   
+}
 
+h1 {
+    color: black;
+    font-family: 'Averago', sans-serif;
 }
 
 p {
-color: black;
-font-family: 'go3v2',san-serif;
+    color: black;
+    font-family: 'go3v2', sans-serif;
+}
+
+.h2-link {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+    color: #000;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 20px;
+    position: relative; /* Added position: relative for child span positioning */
+}
+
+h2 span {
+    transition: 0.5s;
+}
+
+h2:hover span:nth-child(1) {
+    margin-right: 10px;
+}
+
+h2:hover span:nth-child(2) {
+    margin-left: 10px;
+}
+
+h2:hover span {
+    color: #CD001A;
+    text-shadow: 0 0 10px #CD001A,
+                 0 0 20px #CD001A,
+                 0 0 40px #CD001A,
+                 0 0 80px #CD001A,
+                 0 0 120px #CD001A,
+                 0 0 120px #CD001A;
 }
