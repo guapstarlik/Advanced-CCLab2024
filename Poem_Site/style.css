@@ -22,7 +22,7 @@ h1 {
 
 p {
     color: black;
-    font-family: 'go3v2', sans-serif;
+    font-family: 'Averago', sans-serif;
 }
 
 .h2-link {
@@ -53,11 +53,17 @@ h2:hover span:nth-child(2) {
 }
 
 h2:hover span {
-    color: #CD001A;
+    color: #CD001A !important;
     text-shadow: 0 0 10px #CD001A,
                  0 0 20px #CD001A,
                  0 0 40px #CD001A,
                  0 0 80px #CD001A,
                  0 0 120px #CD001A,
                  0 0 120px #CD001A;
+}
+
+.text-block {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the text block horizontally */
+    text-align: center; /* Align the text center within the block */
 }
