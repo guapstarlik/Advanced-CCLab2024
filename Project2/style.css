@@ -1,0 +1,57 @@
+
+body {
+    background-color: black; /* Set the background color of the entire page to black */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* border: 1vh solid black; */
+    height: 0vh;
+    justify-content: space-evenly;
+    /* align-content: flex-end; */
+    /* align-items: center;  */
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.image-box {    
+    width: 60vh;
+    height: 60vh; /* Set the height to make the image box square */
+    padding: 50px;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+    background-size: cover; /* Adjusted background size to cover the container */
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease; /* Added transition for smooth image change */
+}
+
+.image-box img {
+    display: none; /* Hide the img element */
+}
+
+#box1 {
+    background-image: url('Image assets/cam front.png');
+}   
+
+#box2 img {
+    max-width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Ensure the image fills its container */
+}   
+
+#box2 {
+    width: 50vh;    
+    height: 50vh;
+    background-image: url('Image assets/cam back.png');
+}
+
+#box1:hover {
+    background-image: url('Image assets/cam front open.png'); /* Change the background image on hover */
+}
+
+    
