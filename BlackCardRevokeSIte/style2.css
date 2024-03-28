@@ -1,0 +1,32 @@
+body {
+    background-image: url('Images/background.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    align-items: center; 
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.QuestionOptions {
+    width: 150px; 
+    height: 150px; 
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: white; /* Set background color to white */
+    border-radius: 20px; /* Add border radius for rounded corners */
+}
+
+a {
+    text-decoration: none; 
+    color: black; /* Set link color to black */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Optionally adjust font weight */
+}

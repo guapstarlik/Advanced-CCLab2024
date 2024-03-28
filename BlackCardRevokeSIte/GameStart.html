@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Select</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="QuestionOptions">
+        <a id="8 Questions" href="8qs.html">
+           <h1>
+            8 Questions
+           </h1>
+        </a>
+    </div>
+
+    <div class=QuestionOptions">    
+        <a id="10 Questions" href="10qs.html">
+             <h1>
+            10 Questions
+           </h1>
+        </a>
+    </div>
+
+    <div class="QuestionOptions">
+        <a id="12 Questions" href="12qs.html">
+            <h1>
+            12 Questions
+            </h1>
+        </a>
+    </div>
+</div>
+
+<script src="Questions.js"></script>
+<script>
+    // Add event listeners for clickable text
+    document.getElementById("eightQuestions").addEventListener("click", () => startGame(8));
+    document.getElementById("tenQuestions").addEventListener("click", () => startGame(10));
+    document.getElementById("twelveQuestions").addEventListener("click", () => startGame(12));
+</script>
+
+</body>
+</html>
